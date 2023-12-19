@@ -1,0 +1,164 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Rick Sanchez",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "avatar": "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+    },
+    {
+      "id": 48,
+      "name": "Black Rick",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "avatar": "https://rickandmortyapi.com/api/character/avatar/48.jpeg"
+    },
+    {
+      "id": 72,
+      "name": "Cool Rick",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "avatar": "https://rickandmortyapi.com/api/character/avatar/72.jpeg"
+    },
+    {
+      "id": 74,
+      "name": "Cop Rick",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "avatar": "https://rickandmortyapi.com/api/character/avatar/74.jpeg"
+    },
+    {
+      "id": 78,
+      "name": "Cowboy Rick",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "avatar": "https://rickandmortyapi.com/api/character/avatar/78.jpeg"
+    },
+    {
+      "id": 220,
+      "name": "Mega Fruit Farmer Rick",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "avatar": "https://rickandmortyapi.com/api/character/avatar/220.jpeg"
+    },
+    {
+      "id": 265,
+      "name": "Pickle Rick",
+      "status": "Alive",
+      "species": "unknown",
+      "gender": "Male",
+      "avatar": "https://rickandmortyapi.com/api/character/avatar/265.jpeg"
+    },
+    {
+      "id": 267,
+      "name": "Plumber Rick",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "avatar": "https://rickandmortyapi.com/api/character/avatar/267.jpeg"
+    },
+    {
+      "id": 288,
+      "name": "Rick D716-B",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "avatar": "https://rickandmortyapi.com/api/character/avatar/288.jpeg"
+    },
+    {
+      "id": 289,
+      "name": "Rick D716-C",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "avatar": "https://rickandmortyapi.com/api/character/avatar/289.jpeg"
+    },
+    {
+      "id": 291,
+      "name": "Rick J-22",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "avatar": "https://rickandmortyapi.com/api/character/avatar/291.jpeg"
+    },
+    {
+      "id": 292,
+      "name": "Rick K-22",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "avatar": "https://rickandmortyapi.com/api/character/avatar/292.jpeg"
+    },
+    {
+      "id": 328,
+      "name": "Slow Rick",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "avatar": "https://rickandmortyapi.com/api/character/avatar/328.jpeg"
+    },
+    {
+      "id": 345,
+      "name": "Teacher Rick",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "avatar": "https://rickandmortyapi.com/api/character/avatar/345.jpeg"
+    },
+    {
+      "id": 381,
+      "name": "Woman Rick",
+      "status": "Alive",
+      "species": "Alien",
+      "gender": "Female",
+      "avatar": "https://rickandmortyapi.com/api/character/avatar/381.jpeg"
+    },
+    {
+      "id": 472,
+      "name": "Baby Rick",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "avatar": "https://rickandmortyapi.com/api/character/avatar/472.jpeg"
+    },
+    {
+      "id": 477,
+      "name": "Hairdresser Rick",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "avatar": "https://rickandmortyapi.com/api/character/avatar/477.jpeg"
+    },
+    {
+      "id": 478,
+      "name": "Journalist Rick",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "avatar": "https://rickandmortyapi.com/api/character/avatar/478.jpeg"
+    },
+    {
+      "id": 482,
+      "name": "Secret Service Rick",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "avatar": "https://rickandmortyapi.com/api/character/avatar/482.jpeg"
+    },
+    {
+      "id": 483,
+      "name": "Steve Jobs Rick",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "avatar": "https://rickandmortyapi.com/api/character/avatar/483.jpeg"
+    }
+  ]
+}
