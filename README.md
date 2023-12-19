@@ -17,7 +17,8 @@ Please ensure your work checks all the points below – it’s what we will be l
 - Your chosen method for fetching and aggregating data. (If the BE task is completed, you should use the BE API made)
 - Chosen folder structure
 - The layout should be based on the wireframes provided.
-- Final work (whether complete or part complete) should be submitted in a git repository. (ideally we would like to see a commit history of some sort). With a README.md file, so we can run the app locally and test it ourselves.
+- Final work (whether complete or in part) should be submitted in a git repository. (ideally we would like to see a commit history - conventional commits are recommended). With a README.md file, so we can run the app locally and test it ourselves.
+- Deploy the app to a service like Vercel or Netlify in whatever state it's left in.
 - **For the BE task DO NOT use the Rick and Morty JavaScript library. We want to see how you architect aggregating data**.
 - The site should be built using HTML, CSS and JavaScript (TypeScript), and as far as styling is concerned: SCSS, PostCSS, CSS Modules and Tailwind are all acceptable. (we have pre-baked in tailwind)
 - The FE task should be built using responsive techniques.
