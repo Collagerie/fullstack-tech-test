@@ -28,6 +28,7 @@ Please ensure your work checks all the points below – it’s what we will be l
 - Add to the eslint config
 - Add prettier and a config
 - Add CI tasks, github actions or similar
+- Add pre-commit hooks (husky, lint-staged etc)
 - Unit tests: We have somewhat setup vitest + react-testing-library - however it's broken at the moment (on purpose), so you will need to fix it and add a test.
 - Accessibility improvements
 - Pagination if required?
