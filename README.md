@@ -3,6 +3,8 @@
 ## The Challenge
 The challenge is split into two parts FE and BE and about we recommend spending 2-3 hours on it, we do not expect everyone to complete both parts of the task, however please try to attempt both parts of the exercise. You can attempt them in any order however we would recommend starting with the BE task first. We would like to see your approach and way of working over the task being "complete".
 
+The exercise is very open on purpose, we want to see how you tackle building something from scratch yourself and what tech you reach for to accomplish i
+
 We use NextJS, both the BE and FE tasks can be accomplished in the same application boilerplate. We have set up the project to utilise the app directory setup however feel free to change this if you need to.
 
 ### BE Task
