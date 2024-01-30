@@ -54,9 +54,9 @@ const getData = async (page = 1) => {
         return {
           id: episode.id,
           name: episode.name,
-          episode: episode.episode,
           airDate: episode.air_date,
           noOfCharacters: episode.characters.length,
+          episode: episode.episode,
         }
       })
 
