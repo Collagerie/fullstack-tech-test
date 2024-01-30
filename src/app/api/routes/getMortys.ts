@@ -48,9 +48,9 @@ const getData = async (page = 1) => {
 
     const { data } = await response.json();
 
-    let characterData = data.characters.results.map((character) => {
+    const characterData = data.characters.results.map((character) => {
 
-      let episodeInfo = character.episode.map((episode) => {
+      const episodeInfo = character.episode.map((episode) => {
         return {
           id: episode.id,
           name: episode.name,
@@ -60,6 +60,14 @@ const getData = async (page = 1) => {
         }
       })
 
+      const locationInfo = {
+          id: character.location.id,
+          name: character.location.name,
+          type: character.location.type,
+          noOfResidents: character.location.residents.length,
+          dimension: character.location.dimension
+        }
+      
       return {
           id: character.id,
           name: character.name,
@@ -67,8 +75,8 @@ const getData = async (page = 1) => {
           species: character.species,
           gender: character.gender,
           avatar: character.image,
-          noOfResidents: character.location.residents.length,
           episode: episodeInfo,
+          location: locationInfo
       }
     })
 
