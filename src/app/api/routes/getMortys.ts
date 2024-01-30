@@ -42,7 +42,7 @@ const getData = async (page = 1) => {
       },
       body: JSON.stringify({
         query: query,
-        variables: { "name": "Morty", "status": "Alive", "page": page},
+        variables: { name: "Morty", status: "Alive", page},
       }),
     });
 
