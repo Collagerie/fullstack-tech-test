@@ -1,8 +1,8 @@
 const url = 'https://rickandmortyapi.com/graphql'
 
 const query = `
-query {
-    characters (filter: { name: "Morty", status: "Alive" }) {
+query getMortys($name: String, $status: String, $page: Int){
+    characters (page: $page, filter: { name: $name, status: $status }) {
       results {
         id
         name
@@ -33,7 +33,7 @@ query {
   }
 `
 
-const getData = async () => {
+const getData = async (page = 1) => {
   try {
     const response = await fetch(url, {
       method: 'POST',
@@ -42,7 +42,7 @@ const getData = async () => {
       },
       body: JSON.stringify({
         query: query,
-        variables: {},
+        variables: { "name": "Morty", "status": "Alive", "page": page},
       }),
     });
 
