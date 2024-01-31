@@ -1,9 +1,14 @@
-import { ICharacter, IEpisode, ILocation } from "@/types/types";
+import {
+  ICharacter,
+  IEpisode,
+  IEpisodeRawData,
+  ILocation,
+} from "@/types/types";
 
 const url = "https://rickandmortyapi.com/graphql";
 
 const query = `
-query getCharacterData($id: ID!){
+    query getCharacterData($id: ID!){
         character (id: $id){
             name
             species
@@ -39,15 +44,17 @@ query getCharacterData($id: ID!){
               }
               episode
             }
-          }
         }
+    }
 `;
 
 interface getCharacterDataByIdProps {
   id: Number;
 }
 
-const getCharacterDataById = async ({ id }: getCharacterDataByIdProps) => {
+export const getCharacterDataById = async ({
+  id,
+}: getCharacterDataByIdProps) => {
   try {
     const response = await fetch(url, {
       method: "POST",
@@ -62,15 +69,17 @@ const getCharacterDataById = async ({ id }: getCharacterDataByIdProps) => {
 
     const { data } = await response.json();
 
-    const episodeInfo: [IEpisode] = data.character.episode.map((episode) => {
-      return {
-        id: episode.id,
-        name: episode.name,
-        airDate: episode.air_date,
-        noOfCharacters: episode.characters.length,
-        episode: episode.episode,
-      };
-    });
+    const episodeInfo: IEpisode[] = data.character.episode.map(
+      (episode: IEpisodeRawData) => {
+        return {
+          id: episode.id,
+          name: episode.name,
+          airDate: episode.air_date,
+          noOfCharacters: episode.characters.length,
+          episode: episode.episode,
+        };
+      }
+    );
 
     const locationInfo: ILocation = {
       id: data.character.location.id,

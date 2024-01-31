@@ -1,9 +1,9 @@
-import { ICharacterCore } from "@/types/types";
+import { ICharacterCore, ICharacterRawData } from "@/types/types";
 
 const url = "https://rickandmortyapi.com/graphql";
 
 const query = `
-query getMortys($name: String, $status: String, $page: Int){
+  query getMortys($name: String, $status: String, $page: Int){
     characters (page: $page, filter: { name: $name, status: $status }) {
       results {
         id
@@ -33,7 +33,7 @@ export const getAliveMortyData = async ({ page = 1 }) => {
     const { data } = await response.json();
 
     const characterData = data.characters.results.map(
-      (character: ICharacterCore) => {
+      (character: ICharacterRawData) => {
         return {
           id: character.id,
           name: character.name,
@@ -44,7 +44,7 @@ export const getAliveMortyData = async ({ page = 1 }) => {
         };
       }
     );
-    return characterData as [ICharacterCore];
+    return characterData as ICharacterCore[];
   } catch (error) {
     console.error("Error fetching data:", error);
   }
