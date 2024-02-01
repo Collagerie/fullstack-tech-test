@@ -49,7 +49,7 @@ const query = `
 `;
 
 interface getCharacterDataByIdProps {
-  id: Number;
+  id: String;
 }
 
 export const getCharacterDataById = async ({
