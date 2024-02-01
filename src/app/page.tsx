@@ -1,7 +1,11 @@
-import {TaskIntro} from "@/components/organisms/TaskIntro";
+import Header from "@/components/molecules/HomeHeader";
+import HomePage from "@/components/organisms/HomePage";
 
-export default function Home() {
-    return (
-        <TaskIntro />
-    )
+export default async function Home() {
+  return (
+    <>
+      <Header />
+      <HomePage />
+    </>
+  );
 }
